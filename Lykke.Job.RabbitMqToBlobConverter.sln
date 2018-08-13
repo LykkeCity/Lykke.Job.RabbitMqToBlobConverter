@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.Job.RabbitMqToBlobConverter", "src\Lykke.Job.RabbitMqToBlobConverter\Lykke.Job.RabbitMqToBlobConverter.csproj", "{5566FD3E-0DB6-4BF3-A98D-4A1181B3E02C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.Job.RabbitMqToBlobConverter.Core", "src\Lykke.Job.RabbitMqToBlobConverter.Core\Lykke.Job.RabbitMqToBlobConverter.Core.csproj", "{0415D4B4-5275-4B5C-AFD5-644572CD91CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Infrastructure", "1. Infrastructure", "{68994F01-8220-4B7C-9AB8-14E137C44AE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Tests", "3. Tests", "{AB790991-CEB2-44A5-9C0C-A2D26DB86D41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.Job.RabbitMqToBlobConverter.Tests", "tests\Lykke.Job.RabbitMqToBlobConverter.Tests\Lykke.Job.RabbitMqToBlobConverter.Tests.csproj", "{AAC9F450-14D7-4482-BC12-7C55006864E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.Job.RabbitMqToBlobConverter.Services", "src\Lykke.Job.RabbitMqToBlobConverter.Services\Lykke.Job.RabbitMqToBlobConverter.Services.csproj", "{5818CEA0-6090-4345-A43E-680C1B1C144B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5566FD3E-0DB6-4BF3-A98D-4A1181B3E02C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5566FD3E-0DB6-4BF3-A98D-4A1181B3E02C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5566FD3E-0DB6-4BF3-A98D-4A1181B3E02C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5566FD3E-0DB6-4BF3-A98D-4A1181B3E02C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0415D4B4-5275-4B5C-AFD5-644572CD91CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0415D4B4-5275-4B5C-AFD5-644572CD91CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0415D4B4-5275-4B5C-AFD5-644572CD91CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0415D4B4-5275-4B5C-AFD5-644572CD91CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC9F450-14D7-4482-BC12-7C55006864E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC9F450-14D7-4482-BC12-7C55006864E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC9F450-14D7-4482-BC12-7C55006864E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC9F450-14D7-4482-BC12-7C55006864E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5818CEA0-6090-4345-A43E-680C1B1C144B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5818CEA0-6090-4345-A43E-680C1B1C144B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5818CEA0-6090-4345-A43E-680C1B1C144B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5818CEA0-6090-4345-A43E-680C1B1C144B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0415D4B4-5275-4B5C-AFD5-644572CD91CD} = {68994F01-8220-4B7C-9AB8-14E137C44AE5}
+		{AAC9F450-14D7-4482-BC12-7C55006864E2} = {AB790991-CEB2-44A5-9C0C-A2D26DB86D41}
+		{5818CEA0-6090-4345-A43E-680C1B1C144B} = {68994F01-8220-4B7C-9AB8-14E137C44AE5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2419990-C093-4EE2-AFE9-80857ECBB147}
+	EndGlobalSection
+EndGlobal
